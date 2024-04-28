@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  border: 1px solid red;
+} */
+html {
+  @apply duration-300;
+}
+html,
+body {
+  @apply min-h-lvh;
+}
+#root {
+  @apply flex flex-col h-full min-h-lvh;
+}
+
+body {
+  @apply font-Montserrat;
+}
+
+main {
+  @apply flex-1;
+}
